@@ -1,0 +1,102 @@
+
+  .contenedor{
+    width: 90%;
+    margin: 20px auto;
+   
+  }
+
+  .header{
+    background-color: lightgray;
+  }
+
+/* Para los títulos grandes */
+  h2{
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  /* Para la navbar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#8EE2BF;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+/* elementos de navbar cambian de color con el hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 31.8%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Para las imagenes */
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Para los iconos */
+  .icono {
+    vertical-align: middle;
+    width: 5%;
+   
+  }
+
+  /* El footer*/
+  .footer{
+    background-color: black;
+    color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contenidoF {
+    float: left;
+    width: 31.8%;
+    padding: 10px;
+  }
+
+  
+  /* Pantalla Mediana */
+  @media screen and (min-width: 640px) and (max-width:1280px) {
+    .column {
+      width: 47%;
+    }
+  }
+ /*Pantalla pequeña 768px*/
+  @media screen and (max-width: 640px) {
+    .column {
+      width: 100%;
+    }
+  }
