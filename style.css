@@ -6,7 +6,7 @@
   }
 
   .header{
-    background-color: lightgray;
+    background-color: #A0FCD2;
   }
 
 /* Para los títulos grandes */
@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#8EE2BF;
+    background-color:#F72585;
   }
   
   li {
